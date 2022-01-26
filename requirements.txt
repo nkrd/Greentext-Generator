@@ -1,0 +1,7 @@
+openai==0.13.0
+opencv_python==4.5.5.62
+Pillow==9.0.0
+praw==7.5.0
+pyenchant==3.2.2
+pytesseract==0.3.8
+requests==2.26.0
