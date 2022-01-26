@@ -1,6 +1,6 @@
-import openai
+import openai, os
 
-openai.api_key = "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"
+openai.api_key = os.environ.get('OPENAI_API_KEY')
 ft_model = "curie:ft-personal-2022-01-25-20-15-32"
 prompt = input("Prompt: ")
 endloop = False

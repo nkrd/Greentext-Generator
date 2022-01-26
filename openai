@@ -14,7 +14,6 @@ logger.addHandler(handler)
 
 
 def main():
-    openai.api_key = "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"
     parser = argparse.ArgumentParser(description=None)
     parser.add_argument(
         "-v",
